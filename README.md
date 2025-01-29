@@ -1,11 +1,15 @@
 ## Curso Intensivo de Python (Capítulo 2) ##
 
-### Ambientes Virtuais ###
-Para criar um ambiente virtual (Anaconda):
->conda create -n dfsf python=3.6
+### Módulos ###
 
-Ativar esse ambiente:
-> source activate dfsf
+```python
+import [nome da biblioteca] as [apelido]
+```
+### Funções ###
+```python
+def double (x): """
+    Descrição da função. Por exemplo, esta função multiplica a entrada por 2. 
+    """
+    return x * 2
+```
 
-Desativar esse ambiente:
-> source deactivate
