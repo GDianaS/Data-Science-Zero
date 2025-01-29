@@ -2,6 +2,5 @@
 
 ### Ambientes Virtuais ###
 Para criar um ambiente virtual (Anaconda):
-'''py 
-    conda create -n dfsf python=3.6
-'''
+>conda create -n dfsf python=3.6
+> source activate dfsf
